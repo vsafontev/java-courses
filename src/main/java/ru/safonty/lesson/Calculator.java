@@ -18,6 +18,7 @@ public class Calculator {
     public void add(int... params) {
         for (int param : params) {
             this.result += param;
+
         }
     }
 
